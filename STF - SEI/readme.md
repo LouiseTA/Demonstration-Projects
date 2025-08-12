@@ -1,60 +1,54 @@
 
-# 🏛️ Estágio no STF – Sistema SEI
-Este projeto foi desenvolvido para demonstrar habilidades técnicas alinhadas às demandas da vaga de estágio no Supremo Tribunal Federal (STF), especialmente nas atividades relacionadas ao Sistema Eletrônico de Informações (SEI).
+# 🏛️ Internship at the Supreme Federal Court (STF) – SEI System
+This project was developed to demonstrate technical skills aligned with the requirements of an internship position at the Supreme Federal Court (STF), particularly for tasks related to the Electronic Information System (SEI).
 
-## 📝 Descrição da Vaga
+## 📝 Job Description
+Updating web forms in the SEI System
 
-Atualização de formulários web no Sistema SEI
+Editing HTML documents in the SEI and ATOM systems
 
-Edição de documentos HTML nos sistemas SEI e ATOM
+**Creating a hotsite using HTML and Bootstrap**
 
-**Criação de hotsite utilizando HTML e Bootstrap** 
+Updating/editing Excel spreadsheets
 
-Atualização/edição de planilhas Excel
+Creating and updating SEI training materials
 
-Criação e atualização de treinamentos do SEI
+Providing support and assistance to internal users of the SEI system
 
-Suporte e atendimento aos usuários internos sobre o sistema SEI
+Preparing the STF HTML newsletter
 
-Confecção do informativo HTML do STF
+Creating routines and improving processes using AI tools
 
-Criação de rotinas e melhoria de procedimentos usando ferramentas de IA
+## 💻 Implemented Features
+Smooth navigation with a fixed menu and soft scrolling between sections.
 
-## 💻 Funcionalidades implementadas
+Sections detailing daily routines, main SEI operations, and suggestions for optimizing usage.
 
-Navegação fluida com menu fixo e rolagem suave entre seções.
+Quick access to common SEI operations with intuitive icons.
 
-Seções detalhando rotinas diárias, principais operações do SEI, e sugestões para otimização do uso.
+Highlights for new features in SEI version 3.0.
 
-Acesso rápido a operações comuns no SEI com ícones intuitivos.
+Information for support and contact, simulating internal assistance.
 
-Destaques para novidades da versão 3.0 do sistema SEI.
+## 🛠️ Technologies and Tools Used
+HTML5 and CSS3 (with Bootstrap 5) for responsive structure and styling.
 
-Informações para suporte e contato, simulando atendimento interno.
+JavaScript for interactivity and dynamic navigation.
 
-## 🛠️ Tecnologias e Ferramentas usadas
+FontAwesome for visual icons that enhance usability.
 
-HTML5 e CSS3 (com Bootstrap 5) para estruturação e estilo responsivo.
+## 🎯 This project aims to demonstrate:
+Practical knowledge in front-end development for government systems.
 
-JavaScript para interatividade e navegação dinâmica.
+Ability to create clear, functional, and responsive interfaces.
 
-FontAwesome para ícones visuais que melhoram a usabilidade.
+Skill in translating technical requirements into visual solutions.
 
-## 🎯 Este projeto visa demonstrar:
+Focus on user experience and accessibility.
 
-Conhecimento prático em desenvolvimento front-end para sistemas governamentais.
+## 📫 Contact
+For questions, suggestions, or discussions about the project:
 
-Capacidade de criar interfaces claras, funcionais e responsivas.
+My LinkedIn
 
-Habilidade em traduzir requisitos técnicos em soluções visuais.
-
-Atenção à experiência do usuário e acessibilidade.
-
-
-## 📫 Contato
-
-Para dúvidas, sugestões ou discussões sobre o projeto:
-
-[Meu LinkedIn](https://www.linkedin.com/in/gabriele-lt-araujo/)
-
-[Meu E-mail](g.louise.ta@gmail.com)
+My Email
