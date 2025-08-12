@@ -1,8 +1,8 @@
 
-# Estágio no STF – Sistema SEI
+# 🏛️ Estágio no STF – Sistema SEI
 Este projeto foi desenvolvido para demonstrar habilidades técnicas alinhadas às demandas da vaga de estágio no Supremo Tribunal Federal (STF), especialmente nas atividades relacionadas ao Sistema Eletrônico de Informações (SEI).
 
-## Descrição da Vaga
+## 📝 Descrição da Vaga
 
 Atualização de formulários web no Sistema SEI
 
@@ -20,7 +20,7 @@ Confecção do informativo HTML do STF
 
 Criação de rotinas e melhoria de procedimentos usando ferramentas de IA
 
-## Funcionalidades implementadas
+## 💻 Funcionalidades implementadas
 
 Navegação fluida com menu fixo e rolagem suave entre seções.
 
@@ -32,7 +32,7 @@ Destaques para novidades da versão 3.0 do sistema SEI.
 
 Informações para suporte e contato, simulando atendimento interno.
 
-## Tecnologias usadas
+## 🛠️ Tecnologias e Ferramentas usadas
 
 HTML5 e CSS3 (com Bootstrap 5) para estruturação e estilo responsivo.
 
@@ -40,7 +40,7 @@ JavaScript para interatividade e navegação dinâmica.
 
 FontAwesome para ícones visuais que melhoram a usabilidade.
 
-## Este projeto visa demonstrar:
+## 🎯 Este projeto visa demonstrar:
 
 Conhecimento prático em desenvolvimento front-end para sistemas governamentais.
 
@@ -51,7 +51,7 @@ Habilidade em traduzir requisitos técnicos em soluções visuais.
 Atenção à experiência do usuário e acessibilidade.
 
 
-## Contato
+## 📫 Contato
 
 Para dúvidas, sugestões ou discussões sobre o projeto:
 
