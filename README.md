@@ -1,44 +1,40 @@
-# Projetos Demonstrativos
-## Este repositório reúne projetos desenvolvidos com o objetivo de demonstrar minhas habilidades técnicas em diferentes áreas de desenvolvimento.
-Eles foram criados especialmente para processos seletivos e entrevistas técnicas, cobrindo desde conceitos fundamentais até implementações mais avançadas.
+# Demonstration Projects
+## This repository brings together projects developed to showcase my technical skills in different areas of development.
+They were created specifically for recruitment processes and technical interviews, covering everything from fundamental concepts to more advanced implementations.
 
-## 🎯 Objetivo
+## 🎯 Objective
 
-Apresentar, de forma organizada, exemplos práticos que evidenciam:
+Present, in an organized way, practical examples that highlight:
 
-Conhecimento em linguagens de programação, frameworks e ferramentas especialmente voltadas ao Front-End.
+- Knowledge in programming languages, frameworks, and tools, especially focused on Front-End development.  
+- Best practices in code organization, version control, and documentation.  
+- Attention to usability, clarity, and efficiency of solutions.  
 
-Boas práticas de organização, versionamento e documentação de código.
+## 📂 Project Structure
 
-Atenção a usabilidade, clareza e eficiência das soluções.
+Each folder contains:
 
-## 📂 Estrutura dos Projetos
+- Complete source code.  
+- A specific README explaining the purpose and functionality.  
 
-Cada pasta contém:
+## 🛠️ Technologies and Tools Used
 
-Código completo.
+The projects here involve different stacks, including:
 
-README específico explicando objetiovo e funcionamento.
+- HTML  
+- CSS  
+- JavaScript  
+- Bootstrap  
 
-## 🛠️ Tecnologias e Ferramentas Utilizadas
+## 📌 Notes
 
-Os projetos aqui envolvem diferentes stacks, incluindo:
+Some projects may have been simplified for presentation purposes.  
+The focus is on clarity of implementation and demonstration of technical reasoning.
 
-HTML, 
-CSS, 
-JavaScript, 
-Bootstrap.
+## 📫 Contact
 
-## 📌 Observações
+If you’d like to discuss any project or learn more about my experience, feel free to reach out:
 
-Alguns projetos podem ter sido simplificados para fins de apresentação.
+[My LinkedIn](https://www.linkedin.com/in/gabriele-lt-araujo/)
 
-O foco está em clareza de implementação e demonstração de raciocínio técnico.
-
-## 📫 Contato
-
-Se quiser conversar sobre algum projeto ou saber mais sobre minha experiência:
-
-[Meu LinkedIn](https://www.linkedin.com/in/gabriele-lt-araujo/)
-
-[Meu E-mail](g.louise.ta@gmail.com)
+[My E-mail](g.louise.ta@gmail.com)
