@@ -26,6 +26,10 @@ The projects here involve different stacks, including:
 - JavaScript  
 - Bootstrap  
 
+## 🌐 Project pages quick access
+
+- [STF - SEI](https://demonstrative-projects.netlify.app/)
+
 ## 📌 Notes
 
 Some projects may have been simplified for presentation purposes.  
