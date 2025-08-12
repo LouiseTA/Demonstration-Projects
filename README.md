@@ -41,4 +41,4 @@ Se quiser conversar sobre algum projeto ou saber mais sobre minha experiência:
 
 [Meu LinkedIn](https://www.linkedin.com/in/gabriele-lt-araujo/)
 
-[Meu E-mail]: sg.louise.ta@gmail.com
+[Meu E-mail] (sg.louise.ta@gmail.com)
