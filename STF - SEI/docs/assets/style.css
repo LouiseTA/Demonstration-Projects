@@ -15,7 +15,7 @@ body {
 .hero-section {
     background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
     color: white;
-    min-height: 55vh;
+    min-height: 20vh;
     display: flex;
     overflow: hidden;
     align-items:last baseline;
