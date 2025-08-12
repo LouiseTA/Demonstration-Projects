@@ -33,7 +33,7 @@ This project was developed to showcase technical skills aligned with the require
 - Skill in translating technical requirements into visual solutions.  
 - Attention to user experience and accessibility.
 
-## 🌐 To access the page, click [here](https://demonstrative-projects.netlify.app/#guide)
+## 🌐 To access the page, click [here](https://demonstrative-projects.netlify.app/)
 
 ## 📫 Contact
 
