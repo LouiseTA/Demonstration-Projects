@@ -57,4 +57,4 @@ Para dúvidas, sugestões ou discussões sobre o projeto:
 
 [Meu LinkedIn](https://www.linkedin.com/in/gabriele-lt-araujo/)
 
-[Meu E-mail] (sg.louise.ta@gmail.com)
+[Meu E-mail](g.louise.ta@gmail.com)
