@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang = "pt-BR">
+
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <meta name = "description" content = "Guia prático do SEI">
+    <title>SEI - Sistema Eletrônico de Informações | Guia Prático</title>
+    <link href = "assets/style.css" rel = "stylesheet">
+    <link href = "https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel = "stylesheet">
+    <link href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel = "stylesheet">
+</head>
+
+<body>
+    <nav class = "navbar navbar-expand-lg navbar-light fixed-top">
+        <div class = "container">
+            <a class = "navbar-brand" href = "#home">
+            <img src="assets/sei-logo.png" width="75">
+            </a>
+            <button class = "navbar-toggler" type = "button" data-bs-toggle = "collapse" data-bs-target = "#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class = "collapse navbar-collapse" id = "navbarNav">
+                <ul class = "navbar-nav ms-auto">
+                    <li class = "nav-item"><a class = "nav-link" href = "#home">Início</a></li>
+                    <li class = "nav-item"><a class = "nav-link" href = "#guide">Rotina diárias</a></li>
+                    <li class = "nav-item"><a class = "nav-link" href = "#ops">Operações</a></li>
+                    <li class = "nav-item"><a class = "nav-link" href = "#help">Ajuda</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id = "home" class = "hero-section">
+        <div class = "container hero-content">
+            <div class = "row align-items-center">
+                <div class = "col-lg-8 mx-auto text-center">
+                    <h1 class = "display-4 fw-bold mb-4">
+                        Sistema Eletrônico de Informações
+                    </h1>
+                    <p class = "lead mb-4">
+                        Guia interativo e inteligente para dominar o SEI
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class = "py-5">
+        <div class = "container">
+            <h2 class = "section-title text-center">Acesso Rápido</h2>
+            <div class = "row">
+                <div class = "col-md-3 col-sm-6">
+                    <div class = "quick-access-card text-center" onclick = "scrollToSection('iniciar-processo')">
+                        <i class = "fas fa-plus-circle quick-access-icon text-success"></i>
+                        <h5>Iniciar Processo</h5>
+                        <p class = "text-muted">Crie novos processos no sistema</p>
+                    </div>
+                </div>
+                <div class = "col-md-3 col-sm-6">
+                    <div class = "quick-access-card text-center" onclick = "scrollToSection('documentos')">
+                        <i class = "fas fa-file-text quick-access-icon text-primary"></i>
+                        <h5>Documentos</h5>
+                        <p class = "text-muted">Gerencie e assine documentos</p>
+                    </div>
+                </div>
+                <div class = "col-md-3 col-sm-6">
+                    <div class = "quick-access-card text-center" onclick = "scrollToSection('tramitacao')">
+                        <i class = "fas fa-exchange-alt quick-access-icon text-warning"></i>
+                        <h5>Tramitação</h5>
+                        <p class = "text-muted">Envie e acompanhe processos</p>
+                    </div>
+                </div>
+                <div class = "col-md-3 col-sm-6">
+                    <div class = "quick-access-card text-center" onclick = "scrollToSection('pesquisa')">
+                        <i class = "fas fa-search quick-access-icon text-info"></i>
+                        <h5>Pesquisa</h5>
+                        <p class = "text-muted">Encontre processos e documentos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id = "guide" class = "py-5 bg-light">
+        <div class = "container">
+            <h2 class = "section-title">O que fazer diariamente no SEI</h2>
+            <div class = "row">
+                <div class = "col-lg-8">
+                    <div class = "feature-card">
+                        <h4><i class = "fas fa-tasks me-2 text-primary"></i>Rotina Diária</h4>
+                        <ol class = "mt-3">
+                            <li class = "mb-2">
+                                <span class = "step-indicator">1</span>
+                                <strong>Verificar a tela CONTROLE DE PROCESSOS</strong>
+                            </li>
+                            <li class = "mb-2">
+                                <span class = "step-indicator">2</span>
+                                <strong>Verificar BLOCOS DE ASSINATURAS</strong>
+                            </li>
+                            <li class = "mb-2">
+                                <span class = "step-indicator">3</span>
+                                <strong>Verificar BLOCOS DE REUNIÃO</strong>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <div class = "col-lg-4">
+                    <div class = "ai-suggestion">
+                        <h6><i class = "fas fa-lightbulb ai-icon me-2"></i>Configure lembretes automáticos para essas verificações diárias e aumente sua produtividade!</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id = "ops" class = "py-5">
+        <div class = "container">
+            <h2 class = "section-title">Principais Operações</h2>
+            
+            <div id = "iniciar-processo" class = "feature-card mb-4">
+                <div class = "row align-items-center">
+                    <div class = "col-md-2 text-center">
+                        <i class = "fas fa-rocket fa-3x text-success"></i>
+                    </div>
+                    <div class = "col-md-10">
+                        <h4>Iniciar Processo</h4>
+                        <p>A gestão por processo é a base do SEI. Para criar qualquer documento, você deve iniciar um novo processo ou inserir em processo já existente.</p>
+                        <div class = "row mt-3">
+                            <div class = "col-sm-6">
+                                <h6>Passos:</h6>
+                                <ul>
+                                    <li>Menu Principal → <span class = "highlight">INICIAR PROCESSO</span></li>
+                                    <li>Escolher o tipo adequado</li>
+                                    <li>Preencher dados de cadastro</li>
+                                    <li>Clicar em <span class = "highlight">SALVAR</span></li>
+                                </ul>
+                            </div>
+                            <div class = "col-sm-6">
+                                <div class = "ai-suggestion">
+                                    <h6><i class = "fas fa-lightbulb ai-icon me-2"></i>Use o campo filtro para encontrar tipos de processo rapidamente!</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id = "documentos" class = "feature-card mb-4">
+                <div class = "row align-items-center">
+                    <div class = "col-md-2 text-center">
+                        <i class = "fas fa-file-alt fa-3x text-primary"></i>
+                    </div>
+                    <div class = "col-md-10">
+                        <h4>Gerenciar Documentos</h4>
+                        <p>Inclua, edite e assine documentos internos ou externos no sistema.</p>
+                        <div class = "row mt-3">
+                            <div class = "col-sm-4">
+                                <h6><i class = "fas fa-plus text-success"></i> Incluir</h6>
+                                <p class = "small">Clique no ícone <i class="fas fa-plus"></i> e escolha o tipo de documento</p>
+                            </div>
+                            <div class = "col-sm-4">
+                                <h6><i class = "fas fa-edit text-warning"></i> Editar</h6>
+                                <p class = "small">Selecione o documento e clique no ícone <i class="fas fa-edit"></i></p>
+                            </div>
+                            <div class = "col-sm-4">
+                                <h6><i class = "fas fa-signature text-info"></i> Assinar</h6>
+                                <p class = "small">Na v3.0 é possível assinar direto no editor!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id = "tramitacao" class = "feature-card mb-4">
+                <div class = "row align-items-center">
+                    <div class = "col-md-2 text-center">
+                        <i class = "fas fa-paper-plane fa-3x text-warning"></i>
+                    </div>
+                    <div class = "col-md-10">
+                        <h4>Tramitar Processos</h4>
+                        <p>Envie processos para outras unidades e controle prazos de retorno.</p>
+                        <div class = "mt-3">
+                            <div class = "row">
+                                <div class = "col-md-6">
+                                    <h6>Como enviar:</h6>
+                                    <ol>
+                                        <li>Selecione o processo na tela CONTROLE DE PROCESSOS</li>
+                                        <li>Clique no ícone <i class = "fas fa-share"></i></li>
+                                        <li>Informe a unidade de destino</li>
+                                        <li>Configure retorno programado se necessário</li>
+                                    </ol>
+                                </div>
+                                <div class = "col-md-6">
+                                    <div class = "alert alert-info">
+                                        <i class = "fas fa-clock me-2"></i>
+                                        <strong>Dica:</strong> Use o retorno programado para controlar prazos. 
+                                        Processos atrasados aparecem em vermelho!
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id = "pesquisa" class = "feature-card mb-4">
+                <div class = "row align-items-center">
+                    <div class = "col-md-2 text-center">
+                        <i class = "fas fa-search fa-3x text-info"></i>
+                    </div>
+                    <div class = "col-md-10">
+                        <h4>Sistema de Pesquisa</h4>
+                        <p>A v3.0 trouxe melhorias significativas na pesquisa, incluindo busca dentro dos documentos.</p>
+                        <div class = "row mt-3">
+                            <div class = "col-md-6">
+                                <h6>Tipos de Pesquisa:</h6>
+                                <ul>
+                                    <li><strong>Livre:</strong> Campo na barra de ferramentas</li>
+                                    <li><strong>Estruturada:</strong> Menu → PESQUISA</li>
+                                    <li><strong>No Processo:</strong> Nova funcionalidade v3.0</li>
+                                </ul>
+                            </div>
+                            <div class = "col-md-6">
+                                <h6>Conectores Lógicos:</h6>
+                                <ul>
+                                    <li><strong>E:</strong> termo1 E termo2</li>
+                                    <li><strong>OU:</strong> termo1 OU termo2</li>
+                                    <li><strong>NÃO:</strong> termo1 NÃO termo2</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id = "help" class = "py-5 bg-light">
+        <div class = "container">
+            <h2 class = "section-title">Sugestões</h2>
+            <div class = "row">
+                <div class = "col-lg-8">
+                    <div class = "feature-card">
+                        <div id = "aiSuggestions">
+                            <div class = "ai-suggestion mb-3">
+                                <h6><i class = "fas fa-lightbulb ai-icon me-2"></i>Melhores Práticas</h6>
+                                <p>Evite ao máximo a impressão de documentos eletrônicos. Use o SEI como ferramenta principal de gestão documental.</p>
+                            </div>
+                            <div class = "ai-suggestion mb-3">
+                                <h6><i class = "fas fa-cog ai-icon me-2"></i>Otimização de Fluxo</h6>
+                                <p>Use marcadores na v3.0 para organizar processos por categoria e prioridade, facilitando a visualização.</p>
+                            </div>
+                            <div class = "ai-suggestion mb-3">
+                                <h6><i class = "fas fa-shield-alt ai-icon me-2"></i>Segurança</h6>
+                                <p>Sua senha é pessoal e intransferível. Configure lembretes para trocá-la periodicamente.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class = "col-lg-4">
+                    <div class = "card border-0 shadow">
+                        <div class = "card-body text-center">
+                            <i class = "fas fa-question-circle fa-3x text-info mb-3"></i>
+                            <h5>Precisa de Ajuda?</h5>
+                            <p>Acesse o guia completo ou entre em contato com o suporte técnico.</p>
+                            <div class="text-center my-3">
+                                <a href="assets/Guia_SEI_Pratico.pdf" download="assets/Guia_SEI_Pratico.pdf"
+                                class="btn btn-primary btn-download" aria-label="Baixar guia completo em PDF">
+                                <i class="fas fa-file-download me-2"></i>Baixar Guia Prático completo(PDF)
+                                </a>
+                            </div>
+                            <div class = "mt-3">
+                                <p class = "small"><strong>Contatos:</strong></p>
+                                <p class = "small">Secretaria de Altos Estudos, Pesquisa e Gestão da Informação: <br>
+                                (61) 3217 - 3499 / 3500<br>
+                                Secretaria de Tecnologia e Inovação (Helpdesk):<br> 
+                                (61) 3217 - 3416</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class = "py-5">
+        <div class = "container">
+            <h2 class = "section-title">Novidades da Versão 3.0</h2>
+            <div class = "row">
+                <div class = "col-md-4 mb-4">
+                    <div class = "quick-access-card">
+                        <i class = "fas fa-tags quick-access-icon text-success"></i>
+                        <h5>Marcadores</h5>
+                        <p>Organize processos com marcadores coloridos e nomeados</p>
+                    </div>
+                </div>
+                <div class = "col-md-4 mb-4">
+                    <div class = "quick-access-card">
+                        <i class = "fas fa-mail-bulk quick-access-icon text-primary"></i>
+                        <h5>Circulares</h5>
+                        <p>Gere múltiplas vias de documentos para diferentes destinatários</p>
+                    </div>
+                </div>
+                <div class = "col-md-4 mb-4">
+                    <div class = "quick-access-card">
+                        <i class = "fas fa-code-compare quick-access-icon text-warning"></i>
+                        <h5>Comparar Versões</h5>
+                        <p>Compare diferentes versões de um documento facilmente</p>
+                    </div>
+                </div>
+                <div class = "col-md-4 mb-4">
+                    <div class = "quick-access-card">
+                        <i class = "fas fa-signature quick-access-icon text-info"></i>
+                        <h5>Assinatura no Editor</h5>
+                        <p>Assine documentos sem sair do editor de texto</p>
+                    </div>
+                </div>
+                <div class = "col-md-4 mb-4">
+                    <div class = "quick-access-card">
+                        <i class = "fas fa-filter quick-access-icon text-secondary"></i>
+                        <h5>Filtros Avançados</h5>
+                        <p>Use filtros inteligentes para encontrar processos rapidamente</p>
+                    </div>
+                </div>
+                <div class = "col-md-4 mb-4">
+                    <div class = "quick-access-card">
+                        <i class = "fas fa-search-plus quick-access-icon text-dark"></i>
+                        <h5>Pesquisa no Processo</h5>
+                        <p>Busque informações específicas dentro dos documentos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class = "footer">
+        <div class = "container">
+            <div class = "row">
+                <div class = "col-md-6">
+                    <img src="assets/Logotipo_do_Supremo_Tribunal_Federal.svg.png" width="300">
+                    <p>Secretaria de Altos Estudos, Pesquisa e Gestão da Informação<br>
+                    Coordenadoria de Gestão da Informação, Memória Institucional e Museu<br>
+                    Gestão de Documentos Eletrônicos<br>
+                    Sistema Eletrônico de Informações - Versão 3.0</p>
+                </div>
+                <div class = "col-md-6 text-md-end">
+                    <h5>Desenvolvido para demonstrar:</h5>
+                    <p>✓ Criação de Hotsite com HTML e Bootstrap<br>
+                    ✓ Orientações básicas no uso do Sistema SEI<br>
+                    ✓ Interface acessível e intuitiva</p>
+                </div>
+            </div>
+            <hr class = "my-4">
+            <div class = "text-center">
+                <p>&copy; 2024 - Projeto de demonstração para vaga de estágio no STF</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function scrollToSection(sectionId) {
+            document.getElementById(sectionId).scrollIntoView({
+                behavior: 'smooth'
+            });
+        }
+
+        window.addEventListener('scroll', function() {
+            const sections = ['home', 'guide', 'ops', 'help'];
+            const navLinks = document.querySelectorAll('.nav-link');
+            
+            sections.forEach((section, index) => {
+                const element = document.getElementById(section);
+                const rect = element.getBoundingClientRect();
+                
+                if (rect.top <= 100 && rect.bottom >= 100) {
+                    navLinks.forEach(link => link.classList.remove('active'));
+                    navLinks[index].classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
